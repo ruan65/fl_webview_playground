@@ -1,6 +1,7 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-
 
 void main() => runApp(MyApp());
 
@@ -27,15 +28,29 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  static WebViewController _controller;
+
+  var wv = WebView(
+    initialUrl: 'https://yandex.ru',
+    onWebViewCreated: (WebViewController wvc) async {
+      _controller = wvc;
+
+      var currentUrl = await _controller.currentUrl();
+
+      print('current url: $currentUrl');
+    },
+  );
+
   @override
   Widget build(BuildContext context) {
+
+
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: WebView(
-        initialUrl: 'https://yandex.ru',
-      ),
+      body: wv,
     );
   }
 }
