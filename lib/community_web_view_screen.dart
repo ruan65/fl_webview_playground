@@ -43,6 +43,15 @@ class _CommunityWebViewScreenState extends State<CommunityWebViewScreen> {
       print('url changed: $url');
 //      flutterWebviewPlugin.stopLoading();
     });
+    
+    flutterWebviewPlugin.onHttpError.listen((err) {
+      print('wverr ${err.url}');
+    });
+
+    flutterWebviewPlugin.onStateChanged.listen((state) {
+      print('onStateChanged: \n${state.url} \n type=${state.type}\n navigation type=${state.navigationType}');
+    });
+
     super.initState();
   }
 
