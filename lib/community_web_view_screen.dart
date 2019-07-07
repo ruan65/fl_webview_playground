@@ -12,14 +12,27 @@ class CommunityWebViewScreen extends StatefulWidget {
 
 class _CommunityWebViewScreenState extends State<CommunityWebViewScreen> {
 
+  final flutterWebviewPlugin = new FlutterWebviewPlugin();
+
+  @override
+  void initState() {
+    flutterWebviewPlugin.onUrlChanged.listen((String url) {
+      print('url changed: $url');
+    });
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return WebviewScaffold(
+    var wvs = WebviewScaffold(
       appBar: AppBar(
         title: Text('Community webview'),
       ),
       url: selectedUrl,
-      hidden: false,
+      hidden: true,
     );
+
+
+    return wvs;
   }
 }
