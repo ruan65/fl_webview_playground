@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:web_view_fl_native/community_web_view_screen.dart';
-import 'package:web_view_fl_native/oficial_web_view_screen.dart';
+import 'package:web_view_fl_native/official_web_view_screen.dart';
 
 void main() => runApp(MyApp());
 
