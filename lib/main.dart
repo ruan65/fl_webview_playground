@@ -1,7 +1,6 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:web_view_fl_native/community_web_view_screen.dart';
+import 'package:web_view_fl_native/oficial_web_view_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,44 +12,43 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'WV'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  static WebViewController _controller;
-
-  var wv = WebView(
-    initialUrl: 'https://yandex.ru',
-    onWebViewCreated: (WebViewController wvc) async {
-      _controller = wvc;
-
-      var currentUrl = await _controller.currentUrl();
-
-      print('current url: $currentUrl');
-    },
-  );
-
-  @override
-  Widget build(BuildContext context) {
-
-
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
+      home: Builder(
+        builder: (context) => Scaffold(
+          appBar: AppBar(
+            title: Text('Main'),
+          ),
+          body: Center(
+            child: Column(
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 30.0),
+                  child: RaisedButton(
+                    child: Text('Native web view'),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => OfficialWebViewScreen()));
+                    },
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 30.0),
+                  child: RaisedButton(
+                    child: Text('Community web view'),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => CommunityWebViewScreen()));
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
-      body: wv,
     );
   }
 }

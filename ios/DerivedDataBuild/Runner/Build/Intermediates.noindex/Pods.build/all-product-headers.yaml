@@ -1,0 +1,117 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Runner-umbrella.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Runner-Swift.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers/Pods_Runner-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/DerivedDataBuild/Runner/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Runner.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FlutterWebviewPlugin.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.3.5/ios/Classes/FlutterWebviewPlugin.h"
+        },
+        {
+          'type': 'file',
+          'name': "flutter_webview_plugin-Swift.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Headers/flutter_webview_plugin-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "flutter_webview_plugin-umbrella.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/Pods/Target Support Files/flutter_webview_plugin/flutter_webview_plugin-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/DerivedDataBuild/Runner/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/flutter_webview_plugin.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FLTCookieManager.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.9+1/ios/Classes/FLTCookieManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLTWKNavigationDelegate.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.9+1/ios/Classes/FLTWKNavigationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlutterWebView.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.9+1/ios/Classes/FlutterWebView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JavaScriptChannelHandler.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.9+1/ios/Classes/JavaScriptChannelHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "WebViewFlutterPlugin.h",
+          'external-contents': "/Users/a/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.9+1/ios/Classes/WebViewFlutterPlugin.h"
+        },
+        {
+          'type': 'file',
+          'name': "webview_flutter-Swift.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/webview_flutter-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "webview_flutter-umbrella.h",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/Pods/Target Support Files/webview_flutter/webview_flutter-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/a/dev/Plaid/web_view_fl_native/ios/DerivedDataBuild/Runner/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/webview_flutter.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Modules/module.modulemap \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/a/dev/Plaid/web_view_fl_native/ios/Pods/../.symlinks/flutter/ios/Flutter.framework/Headers/Flutter.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Modules/module.modulemap \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Headers/FlutterWebviewPlugin.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/flutter_webview_plugin/flutter_webview_plugin.framework/Headers/flutter_webview_plugin-umbrella.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Modules/module.modulemap \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/WebViewFlutterPlugin.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/JavaScriptChannelHandler.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/FlutterWebView.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/FLTWKNavigationDelegate.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/FLTCookieManager.h \
+  /Users/a/dev/Plaid/web_view_fl_native/build/ios/Debug-iphonesimulator/webview_flutter/webview_flutter.framework/Headers/webview_flutter-umbrella.h

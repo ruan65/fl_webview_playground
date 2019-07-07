@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "d3a30a9bfae4a2c387bf4c129d331bf5"
+build_time: [1562486111, 182397000]
+inputs:
+  "/Users/a/dev/Plaid/web_view_fl_native/ios/Runner/AppDelegate.swift": [1547758512, 493231859]
