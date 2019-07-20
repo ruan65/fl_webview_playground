@@ -6,9 +6,9 @@ import 'package:flutter/rendering.dart';
 
 import 'base.dart';
 
-class WebviewScaffold extends StatefulWidget {
+class WebviewScaffold_ extends StatefulWidget {
 
-  const WebviewScaffold({
+  const WebviewScaffold_({
     Key key,
     this.appBar,
     @required this.url,
@@ -60,10 +60,10 @@ class WebviewScaffold extends StatefulWidget {
   final bool geolocationEnabled;
 
   @override
-  _WebviewScaffoldState createState() => _WebviewScaffoldState();
+  _WebviewScaffold_State createState() => _WebviewScaffold_State();
 }
 
-class _WebviewScaffoldState extends State<WebviewScaffold> {
+class _WebviewScaffold_State extends State<WebviewScaffold_> {
   final webviewReference = FlutterWebviewPlugin();
   Rect _rect;
   Timer _resizeTimer;
