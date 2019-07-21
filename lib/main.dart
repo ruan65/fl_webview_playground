@@ -6,6 +6,9 @@ import 'package:web_view_fl_native/render_html_in_web_view/render_in_native_wv.d
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+
+  static String data = 'no data';
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
