@@ -35,7 +35,7 @@ class CommunityWebViewScreen extends StatefulWidget {
 
 class _CommunityWebViewScreenState extends State<CommunityWebViewScreen> {
 
-  final flutterWebviewPlugin = new FlutterWebviewPlugin();
+  final flutterWebviewPlugin = FlutterWebviewPlugin();
 
   @override
   void initState() {
@@ -66,7 +66,7 @@ class _CommunityWebViewScreenState extends State<CommunityWebViewScreen> {
       withJavascript: true,
       withLocalStorage: true,
       userAgent: kAndroidUserAgent,
-      invalidUrlRegex: '^plaidlink',
+//      invalidUrlRegex: '^plaidlink',
     );
 
 

@@ -1,5 +1,7 @@
 const url =
-    "https://ems.qa.tradingticket.com/oAuth/tradeItAuthScreen?oAuthTempToken=1efd7e61-850c-4ef6-bb76-5aa62ad67c9a";
+    "https://ems.qa.tradingticket.com/oAuth/tradeItAuthScreen?oAuthTempToken=8c146313-9274-40e6-a3fa-d4af27c24d18";
+
+
 const html2 = //
     '<html><body onload="init()">'
     '<iframe height="400px" width="330px" '
@@ -8,6 +10,9 @@ const html2 = //
     'function init() {console.log("on body load event I add event listener");'
     'window.addEventListener("message", receiveMessage, false);}'
     'function receiveMessage(event) {'
-    'console.log("data: " + event.data + " origin: " + event.origin);}'
+    'console.log("data: " + event.data + " origin: " + event.origin);'
+    'if (event.origin == "https://www.trade.it") {'
+    'window.location.href = "http://www.w3schools.com";}'
+    '}'
     '</script>'
     '</body></html>';
