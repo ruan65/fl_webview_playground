@@ -14,3 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+//const html = //
+//    '<html><body>'
+//    '<h1>Trade It!</h1>'
+//    '<p>Buttons to run functions</p>'
+//    '<button onclick="showAlert()">Show alert</button>'
+//    '<script>'
+//    'function showAlert() {'
+//    'alert("Hello! I am an alert box!");}'
+//    '</script>'
+//    '</body></html>';
